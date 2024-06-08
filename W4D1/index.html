@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>LET'S FIND A JOB FOR YOU!</h1>
+    <!--in questo div si richiedono i parametri per eseguire la ricerca-->
+    <div class="search-input">
+        <span>What are you looking for?</span>
+        <textarea name="job of your dreams" id="title"></textarea>
+        <span>Where do you want to work?</span>
+        <textarea name="your ideal location" id="location"></textarea>
+        <button onclick="searchJobsWithInput()">Let's find!</button>
+    </div>
+    <!--questo div viene implementato da js con i riultati della ricerca-->
+    <div id="output"></div>
+
+    <script src="scaricabile.js"></script>
+</body>
+
+</html>
